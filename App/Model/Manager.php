@@ -9,7 +9,7 @@ use App\Session\SessionInterface;
 class Manager
 {
     public function __construct(
-        protected SessionInterface $sessionManager,
+        public SessionInterface $sessionManager,
     )
     {
     }
